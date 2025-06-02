@@ -195,3 +195,7 @@ cython_debug/
 
 # no
 chroma_db/
+aesop_fables_deduplicated.json
+aesop_fables.json
+removed_stories.txt
+
