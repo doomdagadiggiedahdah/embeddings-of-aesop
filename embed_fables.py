@@ -12,7 +12,7 @@ from typing import List, Dict
 import os
 
 class FableEmbedder:
-    def __init__(self, data_file: str = "aesop_fables.json", db_path: str = "./chroma_db"):
+    def __init__(self, data_file: str = "aesop_fables_deduplicated.json", db_path: str = "./chroma_db"):
         self.data_file = data_file
         self.db_path = db_path
         self.client = None
